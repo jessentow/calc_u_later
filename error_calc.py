@@ -19,7 +19,7 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-choice = input("Select operation (1/2/3/4/0): ")
+choice = input("Select operation (1/2/3/4/): ")
 
 if choice not in ["1", "2", "3", "4"]:
     print("Invalid input")
