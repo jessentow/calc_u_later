@@ -19,7 +19,7 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-choice = input("Select operation (1/2/3/4): ")
+choice = input("Select operation (1/2/3/4/0): ")
 
 if choice not in ["1", "2", "3", "4"]:
     print("Invalid input")
@@ -29,13 +29,17 @@ else:
 
     if choice == "1":
         result = add(num1, num2)
-        print("Result: " + result)
+        print("Result: " , result)
+
     elif choice == "2":
         result = subtract(num1, num2)
-        print("Result: " + result)
+        
+        print("Result: " , result)
     elif choice == "3":
         result = multiply(num1, num2)
-        print("Result: " + result)
+        
+        print("Result: " , result)
     elif choice == "4":
         result = divide(num1, num2)
-        print("Result: " + result)
+        print("Result: "  , result)
+        
